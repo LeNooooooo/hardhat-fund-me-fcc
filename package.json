@@ -1,0 +1,38 @@
+{
+  "name": "hardhat-fund-me",
+  "author": "Le___No",
+  "version": "1.0.0",
+
+  "devDependencies": {
+    "@chainlink/contracts": "^0.4.2",
+    "@nomicfoundation/hardhat-chai-matchers": "^1.0.2",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.0.0",
+    "chai": "^4.2.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "ethers": "^5.6.9",
+    "hardhat": "^2.10.1",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-deploy": "^0.11.12",
+    "hardhat-gas-reporter": "^1.0.8",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.13",
+    "solhint": "^3.3.7",
+    "solidity-coverage": "^0.7.21"
+  },
+
+  "scripts": {
+    "test": "npx hardhat test",
+    "test2": "npx hardhat test --network rinkeby",
+    "linting": "npx solhint 'contracts/*.sol'",
+    "coverage": "npx hardhat coverage"
+  }
+}
